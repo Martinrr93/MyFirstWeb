@@ -1,0 +1,71 @@
+body {
+    background-image: url(Imagenes/patron-bicicleta_1284-758.jpg);
+    color: #333; / Color del texto /
+    font-family: Arial, sans-serif; / Fuente del texto /
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); / Fondo blanco con opacidad /
+    border-radius: 10px; / Bordes redondeados /
+}
+
+h1, h2, h3 {
+    color: #2c3e50; / Color de los encabezados /
+    font-weight: 700;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); / Fondo blanco con opacidad /
+    border-radius: 10px; / Bordes redondeados /
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; / Para que las celdas no tengan espacio entre ellas /
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd; / Bordes de las celdas /
+    padding: 8px; / Espaciado interno /
+    text-align: left; / Alineación del texto /
+}
+
+th {
+    background-color: #f2f2f2; / Color de fondo de los encabezados de la tabla /
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); / Fondo blanco con opacidad /
+    border-radius: 10px; / Bordes redondeados /
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+fieldset input{
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button{
+    cursor: pointer;
+}
+
+table img{
+    display: block;
+    margin: 0 auto;
+    height: 350;
+}
+article{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); / Fondo blanco con opacidad /
+    border-radius: 10px; / Bordes redondeados /
+}
